@@ -55,14 +55,18 @@ main {
     margin-bottom: 0.7rem;
 }
 #conhecimentos {
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 0px auto;
     margin: 5px auto 0px auto;
 }
 .lings{
-    float: left;
-    overflow: auto;
-    min-width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
 
     text-align: center;
     text-decoration: none;
@@ -71,7 +75,7 @@ main {
     padding: 14px 16px;
     border-radius: 6px;
     border: 1px solid;
-    margin: 5px;
+    margin: 5px 0.3rem;
 }
 .lings > img {
     width: 50px;
@@ -89,7 +93,7 @@ main {
 #mais, #cursos {
     flex: 1 0 40%;
     margin: 0em;
-    width: 50%;
+    width: 40%;
 }
 #mais {
     font-size: 0.9rem;
@@ -137,6 +141,7 @@ footer > h4 {
     }
     #mais, #cursos {
         flex: 1 0 100%;
+        width: 100%;
         margin: 0;
     }
 }
