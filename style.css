@@ -51,6 +51,9 @@ main {
     flex-grow: 1;
     box-sizing: border-box;
 }
+#sobre_mim {
+    margin-bottom: 0.7rem;
+}
 #conhecimentos {
     display: inline-block;
     padding: 0px auto;
@@ -64,10 +67,6 @@ main {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
 
     padding: 14px 16px;
     border-radius: 6px;
@@ -88,9 +87,9 @@ main {
     justify-content: space-between;
 }
 #mais, #cursos {
-    flex: 1 0 30%; /* Ajuste este valor conforme necessário */
-    margin: 1em;
-    width: 30%;
+    flex: 1 0 40%;
+    margin: 0em;
+    width: 50%;
 }
 #mais {
     font-size: 0.9rem;
@@ -101,6 +100,7 @@ main {
 #contato {
     text-align: center;
     padding: 0px auto;
+    margin-top: 0.8rem;
 }
 #contato > p {
     width: auto;
@@ -111,7 +111,6 @@ main {
     height: 10px;
     background-image: linear-gradient(to right, #cc02ff, #360099);
 }*/
-
 footer {
     text-align: center;
     height: 15vh;
@@ -138,6 +137,7 @@ footer > h4 {
     }
     #mais, #cursos {
         flex: 1 0 100%;
+        margin: 0;
     }
 }
 @media screen and (max-width: 340px){
