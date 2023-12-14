@@ -24,11 +24,9 @@ p, a {
     color: var(--marinho);
 }
 #barra {
-    width: 100vw;
-    height: 10px;
     background-color: #5F49F2;
 }
 footer {
-    color: var(--cinza);
+    color: var(--branco);
     background-color: var(--forte);
 }
