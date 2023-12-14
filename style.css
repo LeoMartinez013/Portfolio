@@ -43,9 +43,6 @@ ul {
     padding-left: 2rem;
     margin: 0.2rem auto;
 }
-li {
-    
-}
 main {
     max-width: 900px;
     width: 100%;
@@ -85,7 +82,7 @@ main {
     margin: 0px;
     font-size: 1rem;
 }
-#mais-cursos {
+#mais_ursos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -136,7 +133,7 @@ footer > h4 {
     .sobre_mim {
         margin-top: 10px;
     }
-    #mais-cursos {
+    #mais_ursos {
         flex-direction: column;
     }
     #mais, #cursos {
