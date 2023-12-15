@@ -16,7 +16,8 @@ body {
 header {
     text-align: center;
     justify-content: center;
-    height: 80px;
+    min-height: 80px;
+    height: auto; 
     width: 100%;
 }
 header > h1 {
@@ -26,11 +27,11 @@ header > h1 {
 }
 #contato {
     text-align: center;
-    padding: 0px auto;
+    padding: 0;
 }
 #contato > p {
-    width: auto;
     display: inline-block;
+    width: auto;
 }
 #barra {
     height: 0.6rem;
@@ -151,6 +152,9 @@ footer > h4 {
 
 }
 @media screen and (max-width: 600px){
+    #contato {
+        margin-bottom: 0.2rem;
+    }
     main {
         width: 100%;
         padding: 0px 2%;
@@ -191,8 +195,5 @@ footer > h4 {
     }
     .lings > p {
         font-size: 0.9rem;
-    }
-    #separador {
-        visibility: hidden;
     }
 }
