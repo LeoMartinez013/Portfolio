@@ -16,7 +16,7 @@ header {
     background-color: var(--forte);
     color: var(--branco);
 }
-#contatos > p, a {
+#contatos > p, p > a {
     color: var(--branco);
 }
 main {
@@ -36,6 +36,15 @@ main {
 }
 #perfil > p {
     color: var(--branco);
+}
+.avancado::after {
+    color: #00a01b;
+}
+.intermediario::after {
+    color: #0e0185;
+}
+.basico::after {
+    color: #c5aa0e;
 }
 #barra {
     background-color: #5F49F2;

@@ -56,6 +56,18 @@ ul {
     padding-left: 2rem;
     margin: 0.2rem auto;
 }
+.avancado::after {
+    font-weight: 600;
+    content: "Avançado";
+}
+.intermediario::after {
+    font-weight: 600;
+    content: "Intermediário";
+}
+.basico::after {
+    font-weight: 600;
+    content: "Básico";
+}
 main {
     max-width: 900px;
     width: 100%;
