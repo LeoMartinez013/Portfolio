@@ -14,7 +14,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
-    display: flex;
+    text-align: center;
     justify-content: center;
     height: 80px;
     width: 100%;
@@ -22,7 +22,15 @@ header {
 header > h1 {
     font-size: 1.5rem;
     width: auto;
-    margin: auto;
+    margin: 10px auto;
+}
+#contato {
+    text-align: center;
+    padding: 0px auto;
+}
+#contato > p {
+    width: auto;
+    display: inline-block;
 }
 #barra {
     height: 0.6rem;
@@ -96,12 +104,10 @@ main {
     justify-content: space-between;
 }
 #mais, #cursos {
-    flex: 1 0 40%;
-    margin: 0em;
-    width: 40%;
-}
-#mais {
     font-size: 0.9rem;
+    flex: 1 0 40%;
+    margin-bottom: 1rem;
+    width: 40%;
 }
 #mais > ul, p {
     margin: 1px auto;
@@ -120,15 +126,16 @@ main {
 #perfil > a{
     text-decoration: underline;
 }
-#contato {
-    text-align: center;
-    padding: 0px auto;
-    margin-top: 0.8rem;
+#cursos > ul{
+    list-style-type: decimal;
 }
-#contato > p {
-    width: auto;
-    display: inline-block;
+#gestao, #humanas {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    padding-left: 1rem;
+
 }
+
 /*#color_bar {
     width: 100vw;
     height: 10px;
@@ -162,6 +169,9 @@ footer > h4 {
         flex: 1 0 100%;
         width: 100%;
         margin: 0;
+    }
+    #mais {
+        margin-bottom: 1rem;
     }
 }
 @media screen and (max-width: 340px){

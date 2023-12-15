@@ -6,22 +6,24 @@
     --branco: #F2F2F2;
     --preto: #000000;
 }
-
+h2 {
+    color: var(--forte);
+}
+p, a {
+    color: var(--marinho);
+}
 header {
     background-color: var(--forte);
+    color: var(--branco);
+}
+#contatos > p, a {
     color: var(--branco);
 }
 main {
     background-color: var(--branco);
 }
-h2 {
-    color: var(--forte);
-}
 .lings {
     border-color: #07338C;
-}
-p, a {
-    color: var(--marinho);
 }
 #projetos > p > a {
     color: var(--claro);
@@ -34,9 +36,6 @@ p, a {
 }
 #perfil > p {
     color: var(--branco);
-}
-#contatos > p {
-    color: var(--marinho);
 }
 #barra {
     background-color: #5F49F2;
