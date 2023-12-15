@@ -23,9 +23,25 @@ h2 {
 p, a {
     color: var(--marinho);
 }
+#projetos > p > a {
+    color: var(--claro);
+}
+#perfil {
+    background-color: var(--forte);
+}
+#perfil > p > a {
+    color: var(--branco);
+}
+#perfil > p {
+    color: var(--branco);
+}
+#contatos > p {
+    color: var(--marinho);
+}
 #barra {
     background-color: #5F49F2;
 }
+
 footer {
     color: var(--branco);
     background-color: var(--forte);

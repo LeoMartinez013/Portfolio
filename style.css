@@ -31,10 +31,15 @@ header > h1 {
     margin: 0;
 }
 h2 {
+    font-weight: 700;
     font-size: 1.1rem;
     margin-bottom: 8px;
 }
-p, a {
+p {  
+    font-size: 0.9rem;
+}
+a {
+    text-decoration: none;
     font-size: 0.9rem;
 }
 ul {
@@ -100,6 +105,20 @@ main {
 }
 #mais > ul, p {
     margin: 1px auto;
+}
+#projetos > p > a {
+    font-weight: 600;
+}
+#perfil {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#perfil > a{
+    text-decoration: underline;
 }
 #contato {
     text-align: center;
