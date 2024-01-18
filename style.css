@@ -124,7 +124,8 @@ main {
     font-weight: 600;
     font-size: 1rem;
 }
-#perfil > a{
+
+a:hover {
     text-decoration: underline;
 }
 #cursos > ul{

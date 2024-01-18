@@ -16,7 +16,7 @@ header {
     background-color: var(--forte);
     color: var(--branco);
 }
-#contatos > p, a {
+#contato > p {
     color: var(--branco);
 }
 main {
