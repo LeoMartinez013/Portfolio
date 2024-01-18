@@ -99,7 +99,7 @@ main {
     margin: 0px;
     font-size: 1rem;
 }
-#mais_ursos {
+#mais_cursos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -113,8 +113,42 @@ main {
 #mais > ul, p {
     margin: 1px auto;
 }
-#projetos > p > a {
-    font-weight: 600;
+
+#carrossel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  gap: 2.5%;
+  margin-top: 1rem;
+}
+
+.projetos-cards {
+  flex: 0 0 auto;
+
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, width 0.5s ease-in-out;
+  
+  padding: 0.5rem 1rem;
+  border: 0.1px solid;
+  border-radius: 10px;
+  width: 40%;
+  height: 10rem ;
+}
+
+.projetos-cards.opaco {
+  opacity: 0.5;
+  width: 25%; /* Largura reduzida para os cartões antecessores e sucessores */
+}
+.projetos-cards > h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+}
+.projetos-cards > p {
+    text-align: center;
+    font-weight: 400;.projetos-cards
+    font-size: 0.8rem;
 }
 #perfil {
     text-align: center;

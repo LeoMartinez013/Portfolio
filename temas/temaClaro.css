@@ -28,6 +28,18 @@ main {
 #projetos > p > a {
     color: var(--claro);
 }
+.projetos-cards {
+    background-color: var(--forte);
+    border-color: var(--claro);
+}
+.projetos-cards.opaco {
+    border-color: var(--branco);
+}
+.projetos-cards > h3,
+.projetos-cards > p {
+    color: var(--branco);
+}
+
 #perfil {
     background-color: var(--forte);
 }
