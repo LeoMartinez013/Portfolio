@@ -1,117 +1,138 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
-    margin: 0px;
-    padding: 0px;
-    min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
 
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
-    text-align: center;
-    justify-content: center;
-    min-height: 80px;
-    height: auto; 
-    width: 100%;
+  text-align: center;
+  justify-content: center;
+  min-height: 80px;
+  height: auto;
+  width: 100%;
 }
-header > h1 {
-    font-size: 1.5rem;
-    width: auto;
-    margin: 10px auto;
+
+header>h1 {
+  font-size: 1.5rem;
+  width: auto;
+  margin: 10px auto;
 }
+
 #contato {
-    text-align: center;
-    padding: 0;
+  text-align: center;
+  padding: 0;
 }
-#contato > p {
-    display: inline-block;
-    width: auto;
+
+#contato>p {
+  display: inline-block;
+  width: auto;
 }
+
 #barra {
-    height: 0.6rem;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  height: 0.6rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
+
 h2 {
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
 }
-p {  
-    font-size: 0.9rem;
+
+p {
+  font-size: 0.9rem;
 }
+
 a {
-    text-decoration: none;
-    font-size: 0.9rem;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
+
 ul {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 
-    padding-left: 2rem;
-    margin: 0.2rem auto;
+  padding-left: 2rem;
+  margin: 0.2rem auto;
 }
+
 main {
-    max-width: 900px;
-    width: 100%;
-    padding: 0px 3%;
-    margin: 0px auto;
-    flex-grow: 1;
-    box-sizing: border-box;
+  max-width: 900px;
+  width: 100%;
+  padding: 0px 3%;
+  margin: 0px auto;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
+
 #sobre_mim {
-    margin-bottom: 0.7rem;
+  margin-bottom: 0.7rem;
 }
+
 #conhecimentos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 0px auto;
-    margin: 5px auto 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0px auto;
+  margin: 5px auto 0px auto;
 }
-.lings{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 85px;
 
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+.lings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
 
-    padding: 14px 16px;
-    border-radius: 6px;
-    border: 1px solid;
-    margin: 5px 0.3rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 1px solid;
+  margin: 5px 0.3rem;
 }
-.lings > img {
-    width: 50px;
-    height: 50px;
+
+.lings>img {
+  width: 50px;
+  height: 50px;
 }
-.lings > p {
-    margin: 0px;
-    font-size: 1rem;
+
+.lings>p {
+  margin: 0px;
+  font-size: 1rem;
 }
+
 #mais_cursos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#mais, #cursos {
-    font-size: 0.9rem;
-    flex: 1 0 40%;
-    margin-bottom: 1rem;
-    width: 40%;
+
+#mais,
+#cursos {
+  font-size: 0.9rem;
+  flex: 1 0 40%;
+  margin-bottom: 1rem;
+  width: 40%;
 }
-#mais > ul, p {
-    margin: 1px auto;
+
+#mais>ul,
+p {
+  margin: 1px auto;
 }
 
 #carrossel {
@@ -124,51 +145,85 @@ main {
 }
 
 .projetos-cards {
-  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, width 0.5s ease-in-out;
-  
+
   padding: 0.5rem 1rem;
   border: 0.1px solid;
   border-radius: 10px;
   width: 40%;
-  height: 10rem ;
+  height: 10rem;
 }
 
 .projetos-cards.opaco {
   opacity: 0.5;
-  width: 25%; /* Largura reduzida para os cartões antecessores e sucessores */
+  width: 25%;
+  /* Largura reduzida para os cartões antecessores e sucessores */
 }
-.projetos-cards > h3 {
-    text-align: center;
-    font-size: 1rem;
-    margin: 0;
-    margin-bottom: 0.8rem;
+.card-text {
+  background-color: #ffffffcb;
+  padding: 0.7rem;
+  border-radius: 5px;
 }
-.projetos-cards > p {
-    text-align: center;
-    font-weight: 400;.projetos-cards
-    font-size: 0.8rem;
+.card-text>h3 {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-text>p {
+  text-align: center;
+  font-weight: 400;
+  .projetos-cards font-size: 0.8rem;
+}
+
+#projetos-card1 {
+  background-image: url(assets/img/bg-lanchonete.jpg);
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
+}
+
+#projetos-card2 {
+  background-image: url(assets/img/bg-cronometro.jpg);
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+#projetos-card3 {
+  background-image: url(assets/img/bg-processos.png);
+  background-size:  cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 #perfil {
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 20px auto;
-    font-weight: 600;
-    font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-#cursos > ul{
-    list-style-type: decimal;
+
+#cursos>ul {
+  list-style-type: decimal;
 }
-#gestao, #humanas {
-    list-style-type: lower-roman;
-    list-style-position: inside;
-    padding-left: 1rem;
+
+#gestao,
+#humanas {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+  padding-left: 1rem;
 
 }
 
@@ -178,57 +233,72 @@ a:hover {
     background-image: linear-gradient(to right, #cc02ff, #360099);
 }*/
 footer {
-    text-align: center;
-    height: 15vh;
-    width: 100%;
+  text-align: center;
+  height: 15vh;
+  width: 100%;
 }
-footer > h4 {
-    font-weight: 400;
+
+footer>h4 {
+  font-weight: 400;
 
 }
-@media screen and (max-width: 600px){
-    #contato {
-        margin-bottom: 0.2rem;
-    }
-    main {
-        width: 100%;
-        padding: 0px 2%;
-        margin: 0;
-    }
-    #color_bar {
-        width: 100%;
-    }
-    .sobre_mim {
-        margin-top: 10px;
-    }
-    #mais_ursos {
-        flex-direction: column;
-    }
-    #mais, #cursos {
-        flex: 1 0 100%;
-        width: 100%;
-        margin: 0;
-    }
-    #mais {
-        margin-bottom: 1rem;
-    }
+
+@media screen and (max-width: 600px) {
+  #contato {
+    margin-bottom: 0.2rem;
+  }
+
+  main {
+    width: 100%;
+    padding: 0px 2%;
+    margin: 0;
+  }
+
+  #color_bar {
+    width: 100%;
+  }
+
+  .sobre_mim {
+    margin-top: 10px;
+  }
+
+  #mais_ursos {
+    flex-direction: column;
+  }
+
+  #mais,
+  #cursos {
+    flex: 1 0 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  #mais {
+    margin-bottom: 1rem;
+  }
 }
-@media screen and (max-width: 340px){
-    header > h1 {
-        font-size: 1rem;
-    }
-    main {
-        width: 96%;
-        padding: 0px 2%;
-        margin: 0;
-    }
-    h2 {
-        font-size: 0.9rem;
-    }
-    p, a {
-        font-size: 0.8rem;
-    }
-    .lings > p {
-        font-size: 0.9rem;
-    }
+
+@media screen and (max-width: 340px) {
+  header>h1 {
+    font-size: 1rem;
+  }
+
+  main {
+    width: 96%;
+    padding: 0px 2%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  p,
+  a {
+    font-size: 0.8rem;
+  }
+
+  .lings>p {
+    font-size: 0.9rem;
+  }
 }

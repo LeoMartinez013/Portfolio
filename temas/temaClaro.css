@@ -20,24 +20,21 @@ header {
     color: var(--branco);
 }
 main {
-    background-color: var(--branco);
 }
 .lings {
     border-color: #07338C;
 }
-#projetos > p > a {
-    color: var(--claro);
-}
+
 .projetos-cards {
-    background-color: var(--forte);
     border-color: var(--claro);
 }
 .projetos-cards.opaco {
     border-color: var(--branco);
 }
-.projetos-cards > h3,
-.projetos-cards > p {
-    color: var(--branco);
+
+.card-text > h3,
+.card-text > p {
+    color: var(--claro);
 }
 
 #perfil {
