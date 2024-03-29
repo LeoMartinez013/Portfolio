@@ -241,7 +241,7 @@ footer {
 
 footer>h4 {
   font-weight: 400;
-
+  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 600px) {
