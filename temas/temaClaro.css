@@ -20,6 +20,18 @@ header {
     color: var(--branco);
 }
 main {
+
+    #conhecimentos {
+        details {
+            color: var(--branco);
+            border-color: var(--marinho);
+            background-color: var(--forte);
+            
+            sumary {
+
+            }
+        }
+    }
 }
 .lings {
     border-color: #07338C;
