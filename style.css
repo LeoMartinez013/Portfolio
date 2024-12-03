@@ -89,6 +89,7 @@ body {
         border-width: 0.1rem;
         border-radius: 5px;
         margin-bottom: 0.2rem;
+        transition: 150ms;
         summary {
           font-size: 1rem;
           font-weight: 400;
